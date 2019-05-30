@@ -4,7 +4,7 @@ class DBHelper{
 
     private $host = 'localhost' ;
     private $username = 'root';
-    private $password = 'jp4tsql26*';
+    private $password = '????';
     private $database = 'zipdev';
     public $connection = null;
 
