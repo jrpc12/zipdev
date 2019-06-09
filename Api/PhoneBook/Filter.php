@@ -19,7 +19,7 @@ if ($httpHelper->isVerbAllowed(basename(__FILE__))) {
 
     $book = new PhoneBook();
     $book->fromJSON($data);
-    echo "hola";
+    
     $result = $book->filter();
 
     echo json_encode($result);    
